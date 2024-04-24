@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  
+  background-image: <img src="https://media.licdn.com/dms/image/C4E0BAQFgpg601WqcDg/company-logo_200_200/0/1663579390196/kuleuven_gent_fiiw_logo?e=2147483647&v=beta&t=sGGNYqCfRo7F7UemGcFdbl_obZF0YN--c7nRASkh7KU" alt="foto arduino">;
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 40px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+
+</html>
