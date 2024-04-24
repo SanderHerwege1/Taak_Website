@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulieren post</title>
+	</head>
+	
+	<body>
+		
+		<form action="toon_waarden_post.php" method="post" >
+
+        	<p>Voornaam : <input type="text" name="voornaam" /></p>
+        	<!-- je vindt na submit de voornaam terug in $_POST['voornaam'] -->
+        	
+			<p>Achternaam : <input type="text" name="achternaam" /></p>
+			<p>School : <input type="text" name="school" value="KUL in Gent" /></p>
+			
+			<p>heb je deze voorwerpen thuis :</p> 
+			<p><input type="checkbox" name="kussen" value="kussen" />kussen </p>
+			<P><input type="checkbox" name="matje" value="matje" />matje </p>
+			<p><input type="checkbox" name="slaapzak" value="slaapzak" />slaapzak </p>
+			
+			<p>Waar willen jullie op kamp gaan? </p>
+			<p><input type="radio" name="favoriet" value="binnenland" />binnenland</p>
+			<p><input type="radio" name="favoriet" value="buitenland" />buitenland</p>
+			
+			<p>som hier je medische problemen op</p>
+			<p><textarea name="commentaar" rows="5" cols="40" ></textarea></p>
+			
+			<P>activiteiten: selecteer welke je wilt spelen op dag 4
+			<select name="activiteiten">
+            <option>vlaggenroof</option>
+            <option>voetbal</option>
+            <option>24uur spel</option>
+            </select></P>
+            
+
+			<p>Einde : <input type="submit" name="verzend" value="Verzend formulier" /></p>
+        
+        </form>
+		
+				
+		
+	
+	</body>	
+	
+</html>
